@@ -17,6 +17,7 @@ keywords = [
 ] 
 
 dependencies = [
+  "opencv-python",
   "mdof",
   "sees",
   "opensees"
