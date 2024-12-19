@@ -113,6 +113,16 @@ def pos_to_accel(positions, fps, center=True, scale_factor=1):
     return displ, veloc, accel
 
 
+def baseline_correct(series):
+    n = len(series)
+    # Every 1000 steps, get average value
+    averages = np.mean()
+    # Linear regression best fit line through averages
+    # len(baseline) = n
+    baseline = ...
+    return series-baseline
+
+
 # Integrating from acceleration to displacement
 def accel_to_displ(accel, dt=1, method='cumsum'):
     # Depending on the chosen method, integrate
