@@ -4,7 +4,9 @@ mdof==0.0.20
 numpy==2.1.3
 opencv-contrib-python==4.10.0.84
 opencv-python==4.10.0.84
-opensees==0.0.23
+opensees
 SciencePlots==2.1.1
 sdof==0.0.7
-sees==0.0.25
+veux==0.0.25
+xara
+xsection
